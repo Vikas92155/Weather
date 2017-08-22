@@ -1,0 +1,64 @@
+body{
+    text-align: center;
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+    margin:0;
+    padding: 0;background: rgb(79, 58, 75) none repeat scroll 0% 0%;
+    color: white;
+    background: rgb(79, 58, 75);
+}
+#header a {
+  float: center;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+#description{
+    font-size: 20px;
+}
+h1:hover,h4:hover,h2:hover,p:hover {
+    color: green;
+}
+footer p {
+    padding: 20px 25px;
+    margin: 0;
+}
+
+.fa {
+  padding: 10px;
+  font-size: 10px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+
