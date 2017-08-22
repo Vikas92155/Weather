@@ -37,8 +37,8 @@ function showPosition(position) {
         $("#array6").text("Sunrise: "+array1[4]);
         $("#array7").text("Sunset: "+array1[5]);
         $("#array8").text("Current Temp: "+(parseInt(array1[8])-32)*0.5556+"'C");
-        $("#array9").text("High: "+(parseInt(array1[6])-32)*0.5556+"'F");
-        $("#array10").text("Low: "+(parseInt(array1[7])-32)*0.5556+"'F");
+        $("#array9").text("High: "+(parseInt(array1[6])-32)*0.5556+"'C");
+        $("#array10").text("Low: "+(parseInt(array1[7])-32)*0.5556+"'C");
         $("#array11").text(array1[9]);
     })
     })
