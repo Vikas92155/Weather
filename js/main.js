@@ -53,8 +53,8 @@ function weather(event) {
         forecast2[4] = x.query.results.channel.item.forecast[1].text;
         $("#forecast10").text(forecast2[0]);
         $("#forecast11").text(forecast2[1]);
-        $("#forecast12").text("Highest: " + (parseInt(forecast2[2]) - 32) * 0.5556 + "'F");
-        $("#forecast13").text("Lowest: " + (parseInt(forecast2[3]) - 32) * 0.5556 + "'F");
+        $("#forecast12").text("Highest: " + (parseInt(forecast2[2]) - 32) * 0.5556 + "'C");
+        $("#forecast13").text("Lowest: " + (parseInt(forecast2[3]) - 32) * 0.5556 + "'C");
         $("#forecast14").text(forecast2[4]);
 
         //day2
@@ -66,8 +66,8 @@ function weather(event) {
         forecast3[4] = x.query.results.channel.item.forecast[2].text;
         $("#forecast20").text(forecast3[0]);
         $("#forecast21").text(forecast3[1]);
-        $("#forecast22").text("Highest: " + (parseInt(forecast3[2]) - 32) * 0.5556 + "'F");
-        $("#forecast23").text("Lowest: " + (parseInt(forecast3[3]) - 32) * 0.5556 + "'F");
+        $("#forecast22").text("Highest: " + (parseInt(forecast3[2]) - 32) * 0.5556 + "'C");
+        $("#forecast23").text("Lowest: " + (parseInt(forecast3[3]) - 32) * 0.5556 + "'C");
         $("#forecast24").text(forecast3[4]);
 
         //day 3
@@ -79,8 +79,8 @@ function weather(event) {
         forecast4[4] = x.query.results.channel.item.forecast[3].text;
         $("#forecast30").text(forecast4[0]);
         $("#forecast31").text(forecast4[1]);
-        $("#forecast32").text("Highest: " + (parseInt(forecast4[2]) - 32) * 0.5556 + "'F");
-        $("#forecast33").text("Lowest: " + (parseInt(forecast4[3]) - 32) * 0.5556 + "'F");
+        $("#forecast32").text("Highest: " + (parseInt(forecast4[2]) - 32) * 0.5556 + "'C");
+        $("#forecast33").text("Lowest: " + (parseInt(forecast4[3]) - 32) * 0.5556 + "'C");
         $("#forecast34").text(forecast4[4]);
 
         //day 4
@@ -92,8 +92,8 @@ function weather(event) {
         forecast5[4] = x.query.results.channel.item.forecast[4].text;
         $("#forecast40").text(forecast5[0]);
         $("#forecast41").text(forecast5[1]);
-        $("#forecast42").text("Highest: " + (parseInt(forecast5[2]) - 32) * 0.5556 + "'F");
-        $("#forecast43").text("Lowest: " + (parseInt(forecast5[3]) - 32) * 0.5556 + "'F");
+        $("#forecast42").text("Highest: " + (parseInt(forecast5[2]) - 32) * 0.5556 + "'C");
+        $("#forecast43").text("Lowest: " + (parseInt(forecast5[3]) - 32) * 0.5556 + "'C");
         $("#forecast44").text(forecast5[4]);
 
         //day5
@@ -105,8 +105,8 @@ function weather(event) {
         forecast6[4] = x.query.results.channel.item.forecast[5].text;
         $("#forecast50").text(forecast6[0]);
         $("#forecast51").text(forecast6[1]);
-        $("#forecast52").text("Highest: " + (parseInt(forecast6[2]) - 32) * 0.5556 + "'F");
-        $("#forecast53").text("Lowest: " + (parseInt(forecast6[3]) - 32) * 0.5556 + "'F");
+        $("#forecast52").text("Highest: " + (parseInt(forecast6[2]) - 32) * 0.5556 + "'C");
+        $("#forecast53").text("Lowest: " + (parseInt(forecast6[3]) - 32) * 0.5556 + "'C");
         $("#forecast54").text(forecast6[4]);
 
         //day6
@@ -118,8 +118,8 @@ function weather(event) {
         forecast7[4] = x.query.results.channel.item.forecast[6].text;
         $("#forecast60").text(forecast7[0]);
         $("#forecast61").text(forecast7[1]);
-        $("#forecast62").text("Highest: " + (parseInt(forecast7[2]) - 32) * 0.5556 + "'F");
-        $("#forecast63").text("Lowest: " + (parseInt(forecast7[3]) - 32) * 0.5556 + "'F");
+        $("#forecast62").text("Highest: " + (parseInt(forecast7[2]) - 32) * 0.5556 + "'C");
+        $("#forecast63").text("Lowest: " + (parseInt(forecast7[3]) - 32) * 0.5556 + "'C");
         $("#forecast64").text(forecast7[4]);
     });
 
