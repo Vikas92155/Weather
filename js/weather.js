@@ -10,8 +10,8 @@ function getLocation() {
 
 function showPosition(position) {
     var latlon = position.coords.latitude + "," + position.coords.longitude;
-//     var img_url = "https://maps.googleapis.com/maps/api/staticmap?center=" + latlon + "&zoom=14&size=400x300&key=AIzaSyAeOZNJ6oCxbLM6m19WGS7IZm0pjLaD_hs";
-        var img_url = "https://maps.googleapis.com/maps/api/staticmap?center=" + latlon + "&zoom=14&size=400x300&key=AIzaSyCUnJo3mwcOfZBZ4Uzn3v55Rj23sHlkqrg";
+    var img_url = "https://maps.googleapis.com/maps/api/staticmap?center=" + latlon + "&zoom=14&size=400x300&key=AIzaSyAeOZNJ6oCxbLM6m19WGS7IZm0pjLaD_hs";
+//         var img_url = "https://maps.googleapis.com/maps/api/staticmap?center=" + latlon + "&zoom=14&size=400x300&key=AIzaSyCUnJo3mwcOfZBZ4Uzn3v55Rj23sHlkqrg";
     document.getElementById("mapholder").innerHTML = "<img src='" + img_url + "'>";
     var url = "https://maps.googleapis.com/maps/api/geocode/json?latlng="+position.coords.latitude+","+position.coords.longitude+"&sensor=true";
     $.get(url,function(pos){
